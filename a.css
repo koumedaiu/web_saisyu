@@ -1,6 +1,14 @@
 .photo {
     text-align: center;
 }
+ .container.photo {
+        width: 640px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
 
 @media(min-width:801px) {
     .container {
